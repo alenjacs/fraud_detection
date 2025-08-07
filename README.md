@@ -4,40 +4,59 @@ This project applies machine learning to detect fraudulent credit card transacti
 
 ---
 
-## 📊 Dataset
-- **Source**: [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
-- **Size**: ~284,000 transactions
-- **Fraud Rate**: ~0.17%
+## How to Run
 
-> ❗ **Note**: The dataset (`creditcard.csv`) is not included in this repo because it exceeds GitHub’s 100 MB limit. Download it from Kaggle and place it in your project folder manually.
+1. Clone the repository:
+```bash
+git clone https://github.com/alenjacs/fraud_detection
+```
 
----
+2. Install required packages:
+```bash
+pip install -r requirements.txt
+```
 
-## 🧠 Model Summary
-- **Model**: Random Forest Classifier
-- **Balancing**: SMOTE (Synthetic Minority Oversampling Technique)
-- **Training**: 80% of the data with SMOTE applied
-- **Testing**: 20% held out for evaluation
+3. Download the dataset from Kaggle and place `creditcard.csv` in the root folder. (https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
----
-
-## 📈 Results
-- **Accuracy**: ~99.9%
-- **Precision (fraud)**: 86%
-- **Recall (fraud)**: 85%
-- **F1-score (fraud)**: 86%
-
-> Focus was on **recall** to ensure most fraud cases are detected.
+4. Run the notebook:
+Open `fraud_detection.ipynb` in Jupyter or VS Code and run all cells.
 
 ---
 
-## 🔍 Top Features
+## Dataset
+- Source: [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+- Size: ~284,000 transactions
+- Fraud Rate: ~0.17%
+
+**Note**: The dataset (`creditcard.csv`) is not included in this repo because it exceeds GitHub’s 100 MB limit. Download it from Kaggle and place it in your project folder manually.
+
+---
+
+## Model Summary
+- Model: Random Forest Classifier
+- Balancing: SMOTE (Synthetic Minority Oversampling Technique)
+- Training: 80% of the data with SMOTE applied
+- Testing: 20% held out for evaluation
+
+---
+
+## Results
+- Accuracy: ~99.9%
+- Precision (fraud): 86%
+- Recall (fraud): 85%
+- F1-score (fraud): 86%
+
+Focus was on recall to ensure most fraud cases are detected.
+
+---
+
+## Top Features
 - V14, V17, V12, V10, V16  
 (Discovered using feature importance from Random Forest)
 
 ---
 
-## 🛠️ Tools & Libraries
+## Tools & Libraries
 - Python
 - pandas, numpy
 - matplotlib, seaborn
@@ -46,5 +65,3 @@ This project applies machine learning to detect fraudulent credit card transacti
 - Jupyter Notebook
 
 ---
-
-
