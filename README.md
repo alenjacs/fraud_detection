@@ -34,6 +34,30 @@ This project applies machine learning to detect fraudulent credit card transacti
 
 ---
 
+## How to Run the App (can be done only locally)
+
+### 1. Navigate to the project directory:
+```bash
+cd fraud_detection
+```
+
+### 2. Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Launch the Streamlit web app:
+```bash
+streamlit run app.py
+```
+
+### 4. In your browser:
+- The app will open at `http://localhost:8501`
+- Upload your `creditcard.csv` file when prompted
+- View predictions, visualizations, and model insights
+
+> ⚠️ This Streamlit app cannot run in Google Colab. It must be executed locally using the above steps.
+
 ## Dataset
 - Source: [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 - Size: ~284,000 transactions
