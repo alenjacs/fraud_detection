@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alenjacs/fraud_detection/blob/main/fraud_detection.ipynb)
+
 # Bank Transaction Fraud Detection
 
 This project applies machine learning to detect fraudulent credit card transactions using a real-world, highly imbalanced dataset.
