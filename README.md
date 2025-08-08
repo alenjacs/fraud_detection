@@ -8,20 +8,29 @@ This project applies machine learning to detect fraudulent credit card transacti
 
 ## How to Run
 
+### Option 1: Run in Google Colab (Recommended)
+1. Click the "Open in Colab" badge at the top of this README.
+2. The notebook will:
+   - Automatically install required packages
+   - Automatically download the dataset from Google Drive
+3. Run all cells in the notebook.
+
+### Option 2: Run Locally
 1. Clone the repository:
-```bash
-git clone https://github.com/alenjacs/fraud_detection
-```
+   ```bash
+   git clone https://github.com/alenjacs/fraud_detection
+   ```
 
 2. Install required packages:
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-3. Download the dataset from Kaggle and place `creditcard.csv` in the root folder. (https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+3. The dataset will be automatically downloaded by the notebook. No manual download needed.
 
 4. Run the notebook:
-Open `fraud_detection.ipynb` in Jupyter or VS Code and run all cells.
+   Open `fraud_detection.ipynb` in Jupyter or VS Code and run all cells.
+
 
 ---
 
