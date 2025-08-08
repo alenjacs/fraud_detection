@@ -8,7 +8,7 @@ This project applies machine learning to detect fraudulent credit card transacti
 
 ## How to Run
 
-### Option 1: Run in Google Colab (Recommended)
+### Option 1: Run in Google Colab 
 1. Click the "Open in Colab" badge at the top of this README.
 2. The notebook will:
    - Automatically install required packages
