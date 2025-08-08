@@ -1,4 +1,4 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alenjacs/fraud_detection/blob/main/fraud_detection.ipynb)
+
 
 # Bank Transaction Fraud Detection
 
@@ -9,6 +9,8 @@ This project applies machine learning to detect fraudulent credit card transacti
 ## How to Run
 
 ### Option 1: Run in Google Colab 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alenjacs/fraud_detection/blob/main/notebooks/fraud_detection.ipynb)
+
 1. Click the "Open in Colab" badge at the top of this README.
 2. The notebook will:
    - Automatically install required packages
@@ -34,7 +36,14 @@ This project applies machine learning to detect fraudulent credit card transacti
 
 ---
 
-## How to Run the App (can be done only locally)
+## How to Run the App
+
+👉 [Click here to try the app online](https://frauddetection-bwebwb2uffxx2ej6bzzdjk.streamlit.app)
+
+No setup needed — just upload `creditcard.csv` and view results instantly.
+
+---
+## How to Run the App (locally)
 
 ### 1. Navigate to the project directory:
 ```bash
